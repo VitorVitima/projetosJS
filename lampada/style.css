@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+header {
+    text-align: center;
+}
+
+main {
+    width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#buttom2 {
+    display: none;
+}
+main div#botao {
+    width: 200px;
+    display: flex;
+}
+main > div#botao input {
+    width: 100%;
+}

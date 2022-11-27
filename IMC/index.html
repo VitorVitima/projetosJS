@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/estiloGeral.css">
+    <title>IMC</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora de IMC</h1>
+    </header>
+
+    <main>
+        <section id="boxDoc">
+            <div id="nap">
+                <label for="name">Nome:</label>
+                <label for="altura">Altura:</label>
+                <label for="peso">Peso:</label>
+            </div>
+            <div id="inputs">
+                <input type="text" id="name" placeholder="Primeiro nome" min="2" max 10>
+                <input type="number" id="altura" placeholder="Em metros" min="1" max="5">
+                <input type="number" id="peso" placeholder="Em kilograma" min="0" max="999">
+            </div>
+            <div>
+                <input id="submit" type="submit" value="Testar" onclick="testar()">
+            </div>
+        </section>
+        <section id="secText">
+            <div id="text">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <a target="_blank" href="https://twitter.com/VVitima">@VVitima</a>
+    </footer>
+    <script src="javaSript/jsPrincipal.js"></script>
+</body>
+</html>

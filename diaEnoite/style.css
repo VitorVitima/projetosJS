@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor1: #FFFFFF;
+    --cor2: #DBF227;
+    --cor3: #489FB5;
+    --cor4: #4F518C;
+    --cor5: #181D27;
+}
+header {
+    background-color: var(--cor2);
+    padding: 10px 0px 15px 0px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.144);
+}
+header #text {
+    margin: auto;
+    text-align: center;
+    width: 350px;
+}
+div#buttom {
+    border-radius: 10px;
+    height: 25px;
+    background-color: whitesmoke;
+    width: 65px;
+    padding: 10px 4px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5px;
+    box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.11);
+}
+span {
+    margin: 0px 0px 0px 2px;
+}
+div#ball {
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    background-color: black;
+}
+div#ball:hover{
+    cursor: pointer;
+}
+
+main {
+    margin-left: 3vw;
+    max-width: 400px;
+}
+main h2 {
+    text-align: center;
+    padding: 15px 0px;
+}
+main p {
+    margin-top: 10px;
+    margin-left: 20px ;
+    line-height: 23px;
+}
+section {
+    padding-right: 30px;
+}

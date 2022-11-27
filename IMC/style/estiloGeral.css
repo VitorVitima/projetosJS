@@ -1,0 +1,99 @@
+@charset "UTF-8";
+@import url('root.css');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor3);
+}
+header h1 {
+    color: var(--cor2);
+    text-transform: capitalize;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+main {
+    background-color: var(--cor2);
+    color: var(--cor4);
+    width: 350px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin: auto;
+    border: 1px solid black;
+
+}
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+div#inputs {
+    display: flex;
+    flex-direction: column;    
+}
+div#nap {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    background-color: var(--cor4);
+    padding: 5px 3px;
+    box-sizing: border-box;
+    margin: 10px 10px;
+}
+label{
+    margin: 15px 0px;
+}
+input#submit {
+    padding: calc(100% - 36px) 15px;
+    
+}
+
+/* Parte do texto */
+
+section#secText {
+    display: none;
+    justify-content: center;
+    background-color: var(--cor2);
+    position: absolute;
+    top: calc(47% + 70px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 200px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+div#text span {
+    text-transform: capitalize;
+}
+
+section div#text {
+    background-color: var(--cor4);
+    border-radius: 10px;
+    width: 250px;
+    height: 150px;
+    padding: 10px;
+    color: var(--cor2);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    margin: 10px 0px;
+}
