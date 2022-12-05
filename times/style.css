@@ -16,6 +16,7 @@
 body{
     height: 100vh;
     width: 100vw;
+    overflow: hidden;
     background-size: cover;
     background-image: linear-gradient(120deg, var(--cor1), var(--cor5)) ;
 }
@@ -39,7 +40,7 @@ main {
     }
     body{
         height: 1px;
-        background-image: linear-gradient(120deg, var(--cor3), var(--cor3)) ;
+        background-image: linear-gradient(120deg, var(--cor3), var(--cor3));
     }
 }
 div {
