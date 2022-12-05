@@ -21,15 +21,14 @@ main {
     color: var(--cor4);
     width: 350px;
     height: 300px;
-    display: flex;
-    align-items: center;
     padding-left: 10px;
     border-radius: 10px;
     margin: auto;
     border: 1px solid black;
 
 }
-section{
+section#boxDoc{
+    margin: 77px 0px 0px 0px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -66,10 +65,7 @@ section#secText {
     display: none;
     justify-content: center;
     background-color: var(--cor2);
-    position: absolute;
-    top: calc(47% + 70px);
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-left: -11px;
     width: 350px;
     height: 200px;
     border-bottom-left-radius: 10px;
@@ -91,9 +87,20 @@ section div#text {
     display: flex;
     align-items: center;
     font-size: 20px;
+    margin-top: 15px;
 }
 
 footer {
     text-align: center;
     margin: 10px 0px;
+}
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--cor1);
+    transition-delay: 0.4s;
+    transition-duration: .3s;
 }

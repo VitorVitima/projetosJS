@@ -1,6 +1,10 @@
 let botao = document.querySelector('#buttom')
 let img = document.querySelector('#imagem')
-img.addEventListener('dblclick', broked)
+let quebrada = 0
+function broked(){
+    img.setAttribute('src', './img/quebrada.jpg')
+    quebrada = 1
+}
 function ligar(){
     img.setAttribute('src', './img/ligada.jpg')
     botao.value = 'Desligar'
@@ -11,9 +15,13 @@ function desligar(){
 }
 
 function botaoL(){
+    
     if (botao.value == 'Ligar'){
-        ligar()
+       if (quebrada == 0) {ligar()}
+       else {window.alert('A lampada está quebrada... Aperte ctrl + R')}
     } else if (botao.value == 'Desligar'){
-        desligar()
+       if (quebrada == 0) {desligar()}
+       else {window.alert('A lampada está quebrada... Aperte ctrl + R')}
     }
 }
+img.addEventListener('dblclick', broked)

@@ -46,6 +46,6 @@ function testar(){
         tagP.innerHTML = `<span>${nameInput.value}</span> seu IMC é <strong>${imc}</strong>, ${nivelDoPeso}.`
 
         textImc.insertAdjacentElement('beforeend', tagP)
-        
+        document.querySelector('#pe').style.margin = '130px 0px'   
     }
 }
