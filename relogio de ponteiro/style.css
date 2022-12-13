@@ -1,0 +1,20 @@
+:root {
+    --cor1: #EFE9E7;
+    --cor2: #F9CFF2;
+    --cor3: #52154E;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor1);
+}
+
+main {
+    background-color: #52154E;
+    position: absolute;
+    
+}
