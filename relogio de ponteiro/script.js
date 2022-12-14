@@ -54,7 +54,6 @@ setInterval( function () {
 setInterval( function (){
     const data = new Date()
     let minutos = data.getMinutes()
-    //minutos = 6
     console.log(minutos)
     if (minutos == 15){
         pomteiroMinutos.style.transform = 'rotate(0)'
@@ -255,11 +254,42 @@ setInterval( function (){
     }else if ( minutos == 5){
         pomteiroMinutos.style.transform = 'rotate(305deg)'
         pomteiroMinutos.style.left = '45%'
-        pomteiroMinutos.style.top = '30%'
+        pomteiroMinutos.style.top = '39.5%'
     }else if ( minutos == 6){
         pomteiroMinutos.style.transform = 'rotate(310deg)'
         pomteiroMinutos.style.left = '46%'
         pomteiroMinutos.style.top = '40%'
+    }else if ( minutos == 7){
+        pomteiroMinutos.style.transform = 'rotate(315deg)'
+        pomteiroMinutos.style.left = '47%'
+        pomteiroMinutos.style.top = '41%'
+    }else if ( minutos == 8){
+        pomteiroMinutos.style.transform = 'rotate(320deg)'
+        pomteiroMinutos.style.left = '47%'
+        pomteiroMinutos.style.top = '42%'
+    }else if ( minutos == 9){
+        pomteiroMinutos.style.transform = 'rotate(325deg)'
+        pomteiroMinutos.style.left = '47%'
+        pomteiroMinutos.style.top = '43%'
+    }else if ( minutos == 10){
+        pomteiroMinutos.style.transform = 'rotate(335deg)'
+        pomteiroMinutos.style.left = '49.6%'
+        pomteiroMinutos.style.top = '44%'
+    }else if ( minutos == 11){
+        pomteiroMinutos.style.transform = 'rotate(340deg)'
+        pomteiroMinutos.style.left = '49.6%'
+        pomteiroMinutos.style.top = '45.5%'
+    }else if ( minutos == 12){
+        pomteiroMinutos.style.transform = 'rotate(345deg)'
+        pomteiroMinutos.style.left = '49.6%'
+        pomteiroMinutos.style.top = '46.5%'
+    }else if ( minutos == 13){
+        pomteiroMinutos.style.transform = 'rotate(350deg)'
+        pomteiroMinutos.style.left = '49.6%'
+        pomteiroMinutos.style.top = '47.5%'
+    }else if ( minutos == 14){
+        pomteiroMinutos.style.transform = 'rotate(355deg)'
+        pomteiroMinutos.style.left = '49.6%'
+        pomteiroMinutos.style.top = '48.5%'
     }
-    //continuar 06 minutos
 }, 1000)
