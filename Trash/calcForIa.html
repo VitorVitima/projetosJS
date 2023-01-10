@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <h1>Calculadora</h1>
+
+    <form>
+      <input type="text" id="input1" value="0">
+      <input type="text" id="input2" value="0">
+      <br>
+      <br>
+      <button type="button" onclick="soma()">+</button>
+      <button type="button" onclick="subtrai()">-</button>
+      <button type="button" onclick="multiplica()">*</button>
+      <button type="button" onclick="divide()">/</button>
+      <br>
+      <br>
+      <input type="text" id="resultado" value="0">
+    </form>
+
+    <script>
+      function soma() {
+        let input1 = document.getElementById("input1").value;
+        let input2 = document.getElementById("input2").value;
+        let resultado = document.getElementById("resultado");
+
+        resultado.value = parseInt(input1) + parseInt(input2);
+      }
+
+      function subtrai() {
+        let input1 = document.getElementById("input1").value;
+        let input2 = document.getElementById("input2").value;
+        let resultado = document.getElementById("resultado");
+
+        resultado.value = parseInt(input1) - parseInt(input2);
+      }
+
+      function multiplica() {
+        let input1 = document.getElementById("input1").value;
+        let input2 = document.getElementById("input2").value;
+        let resultado = document.getElementById("resultado");
+
+        resultado.value = parseInt(input1) * parseInt(input2);
+      }
+
+      function divide() {
+        let input1 = document.getElementById("input1").value;
+        let input2 = document.getElementById("input2").value;
+        let resultado = document.getElementById("resultado");
+
+        resultado.value = parseInt(input1) / parseInt(input2);
+      }
+    </script>
+  </body>
+</html>
